@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	    <!-- use arabic and english -->
+		<meta charset="utf-8">
+		<!-- to search the page in internet  -->
+		<meta name="description" content="css syntax">
+		<title> register </title>
+		<link rel="stylesheet" href="register.css">
+		
+	</head>
+		
+	<body>	
+		<div class="register_data" >
+			
+			<label id="Mr">
+				<input type="radio" id="Mr." name="radio" value="Mr.">
+				<span class="radiomark"></span>
+				Mr.
+			</label>
+			
+			<label id="Ms">
+				<input type="radio" id="Ms." name="radio" value="Ms.">
+				<span class="radiomark"></span>
+				Ms.
+			</label>
+			
+			<label id="Mrs">
+				<input type="radio" id="Mrs." name="radio" value="Mrs.">
+				<span class="radiomark"></span>
+				Mrs.
+			</label>
+			
+			<input type="text" id="First_Name" onfocus="this.value=''" value="First Name"><br>
+			<input type="text" id="Last_Name" onfocus="this.value=''" value="Last Name"><br>
+			<input type="text" id="Emai" onfocus="this.value=''" value="Emai"><br>
+			<input type="text" id="Mobile" onfocus="this.value=''" value="Mobile"><br>
+			<input type="text" id="Address" onfocus="this.value=''" value="Address"><br>
+			<input type="text" id="District" onfocus="this.value=''" value="District/province"><br>
+			
+			<select id="city">
+				<option selected disabled hidden > Your City </option>
+				<option value="Ramallah"> Ramallah </option>
+				<option value="Nablus"> Nablus </option>
+			</select>
+			
+			<input type="text" id="zip_code" onfocus="this.value=''" value="zip code">
+			
+			<button type="submit" class="submit">SignUp</button>
+			
+		</div>
+		
+		<div class="register_info">
+		
+			<h1 class="title"> Register Yourself </h1>
+				<p class="description"> Aenean tincidunt, enim nec blandit lobortis, 
+				ante enim ultrices eros, et laoreet augue libero id nunc. 
+				Proin semper feugiat ultrices.<br><br>
+				Aenean a efficitur magna, sed dignissim odio. Praesent 
+				pretium lectus ac nunc ultrices, ac volutpat orci viverra.</p>
+			
+		</div>
+		
+	</body>
+
+</html>

@@ -1,0 +1,197 @@
+body {
+  /* Location of the image */
+  background-image: url("input-bg-06.jpg") ;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: 1600px 2500px;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  opacity:0.5;
+}
+
+.title_article{
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+}
+
+.first_div_background{
+	width:750px;
+	height:400px;
+	background-color:black;
+	margin-left:420px;
+	margin-top:50px;
+}
+.from1{
+	position:relative;
+	width:750px;
+	height:400px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+}
+.pargrahe_of_background1{
+	position:absolute;
+	left:30px;
+	top:30px;
+}
+#radio1{
+	position:absolute;
+	top:140px;
+	left:30px;
+}
+#label1{
+	position:absolute;
+	top:137px;
+	left:70px;
+}
+#radio2{
+	position:absolute;
+	top:200px;
+	left:30px;
+}
+#label2{
+	position:absolute;
+	top:197px;
+	left:70px;
+}
+#radio3{
+	position:absolute;
+	top:260px;
+	left:30px;
+}
+#label3{
+	position:absolute;
+	top:257px;
+	left:70px;
+}
+#radio4{
+	position:absolute;
+	top:320px;
+	left:30px;
+}
+#label4{
+	position:absolute;
+	top:317px;
+	left:70px;
+}
+.second_div_background{
+	width:750px;
+	height:550px;
+	background-color:black;
+	margin-top:100px;
+}
+
+.from2{
+	position:relative;
+	width:750px;
+	height:650px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+}
+.pargrahe_of_background2{
+	
+	position:absolute;
+	left:30px;
+	top:30px;
+}
+#textarea1{
+	position:absolute;
+	top:130px;
+	left:30px;
+	width:670px;
+	height:170px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:black;
+}
+.chexbox_section {
+	
+	position:absolute;
+	width:670px;
+	height:150px;
+	top:340px;
+	left:30px;
+}
+#choise1,#choise2,#choise3{
+	
+	margin-top:30px;
+	
+}
+.third_div_background{
+	width:750px;
+	height:700px;
+	background-color:black;
+}
+.from3{
+	position:relative;
+	width:750px;
+	height:650px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+}
+.pargrahe_of_background3{
+	
+	position:absolute;
+	left:30px;
+	top:30px;
+}
+.info_section{
+	position:absolute;
+	width:670px;
+	height:150px;
+	top:130px;
+	left:30px;
+}
+#occupation,#incoming,#age{
+	width:700px;
+	height:40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:black;
+	margin-top:20px;
+}
+#name,#email{
+	width:690px;
+	height:35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:black;
+	margin-top:20px;
+
+}
+#female_label,#male_label,#male,#female{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#textarea2{
+	position:absolute;
+	top:350px;
+	width:670px;
+	height:170px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:black;
+}
+.fourt_div_background{
+	width:750px;
+	height:100px;
+	margin-top:80px;
+}
+#submit{
+	margin-left:300px;
+	width:100px;
+	height:40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:black;
+}

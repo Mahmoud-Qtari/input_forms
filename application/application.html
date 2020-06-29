@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="description" content=" Input Forms">
+		<meta name="keywords" content="HTML,CSS">
+		<meta name="author" content="Mahmoud Qtari">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title> Application-Input Page </title>
+		<link rel="stylesheet" href="application.css">	
+		
+	</head>
+	
+	<body>
+	
+		<h1 class="title"> Application </h1>
+		<p class="description"> This is the Input Form Number Four, Use to Fill Your Personal Information.<br><br>
+		Please Share it With Your Frinds</p>
+		
+		<div class="container_div">
+		
+			<div class="background_div"></div>
+			
+			<form>
+			
+				<label> Your Full Name </label><br>
+				<input type="text" id="fname" name="fname"><br>
+				
+				<label> Your Emai </label><br>
+				<input type="text" id="email" name="email"><br>
+				
+				<label> Mailing Address </label><br>
+				<input type="text"id="address1" name="address"><br>
+				<input type="text"id="address2" name="address"><br>
+				
+				<div class="city_div"> 
+				
+					<label> City </label><br>
+					
+					<select id="city">
+					
+						<option selected disabled hidden > Your City </option>
+						<option value="Ramallah">Ramallah</option>
+						<option value="Hebron">Hebron</option>
+						<option value="Nablus">Nablus</option>
+						<option value="Salfit">Salfit</option>
+						
+					</select>
+					
+				</div>
+				
+				<div class="zip_code_div"> 
+				
+					<label> Zip Code </label><br>
+					<input type="text"id="zip_code_text" name="zip_code_text">
+					
+				</div>
+				
+				<div class="gender_div">
+				
+					<label> Gender </label><br>
+					
+					<input type="radio" class="option-input radio" name="gender" value="male">
+					<label class="gender"> Male </label>
+					
+					<input type="radio" class="option-input radio" name="gender" value="female">
+					<label class="gender">Female</label>
+					
+				</div>
+				
+				<div class="salary_div"> 
+				
+					<label> Expected Salary </label><br>
+					
+					<select id="city">
+					
+						<option selected disabled hidden > Select </option>
+						<option value="1000">1000-1999$</option>
+						<option value="2000">2000-2999$</option>
+						<option value="3000">3000-3999$</option>
+						<option value="4000">4000-4999$</option>
+						
+					</select>
+					
+				</div>
+				
+				<div class="file_div">
+				
+					<label> Attach a file </label><br>
+					<input type="file" id="myFile" name="filename">
+					
+				</div>
+				
+				<div class="area_div">
+				
+					<label> Additional Message </label><br>
+					<textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+					
+				</div>
+				
+			</form>
+		</div>
+		
+		<input id="submit" type="submit" value="Submit" >
+		
+	</body>
+
+</html>

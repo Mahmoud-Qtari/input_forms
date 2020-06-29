@@ -1,0 +1,77 @@
+body {
+  background-image: url("input-bg-01.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 1600px 760px;
+  background-color: #464646;
+  position:relative;
+}
+.register_data{
+	position:absolute;
+	width:400px;
+	height:600px;
+	margin-left:350px;
+	margin-top:70px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+
+
+}
+.register_info{
+	position:absolute;
+	width:400px;
+	height:600px;
+	margin-left:850px;
+	margin-top:70px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+}
+#Mr,#Ms,#Mrs{
+	
+	margin:30px 0px;
+	cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Create a custom radio */
+.radiomark {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+#First_Name,#Last_Name,#Emai,#Mobile,#Address,#District,#zip_code{
+	margin-top:30px;
+	width:390px;
+	height:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+	background:none;
+}
+#city{
+	margin-top:30px;
+	width:400px;
+	height:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+	background:none;
+	
+}
+option{
+	color:black;
+}
+.submit{
+	margin-top:30px;
+	border-radius:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	width:150px;
+	height:40px;
+	cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
